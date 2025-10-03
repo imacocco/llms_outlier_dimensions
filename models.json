@@ -1,0 +1,11 @@
+{
+  "pythia": "EleutherAI/pythia-12b-deduped",
+  "opt": "facebook/opt-13b",
+  "gemma": "google/gemma-2-9b",
+  "llama": "meta-llama/Llama-3.1-8B",
+  "olmo": "allenai/OLMo-2-1124-13B",
+  "qwen": "Qwen/Qwen2.5-14B",
+  "stable": "stabilityai/stablelm-2-12b",
+  "mistral": "mistralai/Mistral-7B-v0.3",
+  "fast": "EleutherAI/pythia-70m-deduped"
+}

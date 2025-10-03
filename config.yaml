@@ -1,0 +1,27 @@
+# config.yaml
+
+data:
+  # source dataset of sentences
+  raw: "data/extracted_sequences_wiki5k.txt"
+  # name of preprocessed dataset
+  processed: "fin_sorted_extracted_sequences.txt"
+  # number of sentences to be used
+  num_sentences: null
+  # target directory, name of the model will be added at the path
+  final: "results"
+
+run:
+  # number of sentences to be processed at once when computing next token
+  batch_size: 5
+  # model used for inference
+  model: "fast"
+  # dictionary from model names to model paths
+  model_config: 'models.json'
+  # compute only last layer ODs
+  only_last: False
+  # plot ODs
+  plot_ods: True
+  # local quantile considered for each dimension
+  qt: 0.5
+  # global quantile threshold, dimensions with local quantile above this threshold are considered ODs
+  threshold: 0.99
