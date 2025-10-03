@@ -22,6 +22,7 @@ The code is modular and designed for reproducibility and ease of extension.
 project-name/
 ├── README.md              # Project overview
 ├── environment.yml        # Dependencies
+├── config.yaml            # Configuration file
 ├── main.py                # Entry point for running the pipeline
 ├── data/                  # Input data
 ├── notebooks/             # Jupyter notebooks for demo/exploration
