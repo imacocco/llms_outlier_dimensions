@@ -40,7 +40,7 @@ Clone the repo and install dependencies (using conda):
 
 ```bash
 git clone https://github.com/imacocco/llms_outlier_dimensions.git
-cd project-name
+cd llms_outlier_dimensions
 conda env -n ODs create -f environment.yml
 conda activate ODs
 ```
