@@ -39,10 +39,10 @@ project-name/
 Clone the repo and install dependencies (using conda):
 
 ```bash
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/imacocco/llms_outlier_dimensions.git
 cd project-name
-conda env create -f environment.yml
-conda activate your-env-name
+conda env -n ODs create -f environment.yml
+conda activate ODs
 ```
 
 ## 🚀 Usage
